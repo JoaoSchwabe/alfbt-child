@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "alfbtchild",
+    "slug": "alfbtchild",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
