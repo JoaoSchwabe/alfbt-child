@@ -1,13 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 function cardP(props) {
   return (
-    <View style={estilo.view}>
-      <Text style={estilo.texto} onPress={props.tela}>
+    <TouchableOpacity onPress={props.tela} style={estilo.view}>
+      <Text style={estilo.texto} >
         {props.children}
       </Text>
-    </View>
+    </TouchableOpacity>
   );
 }
 

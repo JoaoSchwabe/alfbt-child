@@ -17,7 +17,7 @@ function Home(props) {
       <ScrollView>
         <StatusBar backgroundColor="#B0D3E9" translucent={true} />
         <Menu {...props}>Bem vindo</Menu>
-        <CardG img={require("../components/assets/cojura.png")}>
+        <CardG tela={() => navigation.navigate("Atividades Complementares")} img={require("../components/assets/cojura.png")}>
           {"Atividades\nComplementares"}
         </CardG>
         <View>
