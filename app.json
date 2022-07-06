@@ -2,7 +2,6 @@
   "expo": {
     "name": "alfbtchild",
     "slug": "alfbtchild",
-    "id": "21625f07-0c9f-4011-b909-31b22f4fe2d2",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
